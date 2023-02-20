@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    height: 100%;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #676767ab;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    position: absolute;
+    top: 4vw;
+    left: 7vw;
+}
+
+.btnOpen {
+    z-index: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-top: 1vw;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20vw;
+    height: 4vw;
+    margin: 4vw;
+    background-color: aliceblue;
+    border-radius: 5vw;
+    font-family: "Quicksand";
+
+}
+
+.btnOpen:hover {
+    cursor: pointer;
+}
+
+.modal {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: inline-block;
+    display: none;
+    height: 30vw;
+    width: 50vw;
+    background-color: aliceblue;
+    border-radius: 1vw;
+    position: absolute;
+    top: 6vw;
+    left: 24vw;
+    z-index: 2;
+    font-family: "Quicksand";
+    padding-top: 6vw;
+}
+
+.closeModal{
+    box-sizing: border-box;
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    width: 3vw;
+    left: 45vw;
+    top: 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 20%;
+    font-weight: bold;
+}
+
+.closeModal:hover{
+    cursor: pointer;
+}
